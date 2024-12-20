@@ -1,0 +1,243 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+body {
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    margin: 0;
+    padding: 0;
+    color: #333;
+    font-stretch:ultra-condensed;
+}
+
+.nav a{
+    color: #333;
+    font-weight: 400;
+
+    
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 16px 16px;
+    background-color: #ffffff;
+    border-bottom: 1px solid #ddd;
+
+}
+.header div {
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 65px;
+    padding-top: px;
+    padding-bottom: px;
+}
+.logo {
+    font-weight: 700; 
+    font-size: 20px;
+    text-transform: uppercase;
+    
+}
+
+.nav a {
+    margin-left: 20px;
+    font-size: 14px;
+    font-weight: 400;
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 28px;
+
+}
+
+
+.hero {
+    text-align: center;
+    padding: 50px;
+    background-color: #f9f9f9;
+
+}
+
+.hero h1 {
+    font-size: 125px;
+    margin-bottom: 20px;
+    font-weight: 400; 
+    text-transform: uppercase;
+    line-height: 1.2;
+    text-align: center;
+    line-height: 120px;
+}
+
+.hero img {
+    border: 1px;
+    border-color: #000000;
+    
+   
+}
+
+
+.portfolio {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    padding: 50px;
+    padding-left: 80;
+    background-color: #fff;
+    border-bottom: 1px,#ffffff;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Roboto+Mono&display=swap');
+
+.project {
+    text-align: left;
+    
+}
+
+.project h3 {
+    font-size: 20px;
+    margin: 10px 0 5px;
+    font-weight: 400;
+    font-family: "Roboto Mono", monospace;
+    font-optical-sizing: auto;
+    font-style: normal; 
+}
+
+.project p {
+    
+    font-size: 17px;
+    
+    font-weight: 400;
+    list-style: 2px;
+    font-family: "Roboto Mono", monospace;
+    
+    
+    
+}
+
+.about {
+    height:400px;
+    width:1000px ;
+    max-width: 900px;
+    padding-left:300px ;
+
+    font-size: 48px; 
+    margin-bottom: 10px; 
+    font-weight: 400; 
+    text-transform: uppercase; 
+    font-family: "Bebas Neue", sans-serif;
+    text-align: center;
+    line-height: 52px;
+}
+
+
+.low {
+    text-align: center;
+    padding: 30px 20px;
+    background-color: #ffffff; 
+    color: #333; 
+    border-top: 1px solid #ddd; 
+    
+}
+
+.low p {
+    text-align: left;
+    align-items: right;
+    gap:48px;
+    padding-top: 48px;
+    padding-bottom: 48px;
+    padding-left: 800px ;
+    padding-right: 130px;
+    background-color: #ffffff; 
+    font-size: 24px; 
+    line-height: 32px;
+    font-weight: 300; 
+    color: #333; 
+    font-family: "Roboto Mono", monospace;
+    letter-spacing: 0.5%;
+}
+.copyright-panel {
+    width: 1344px; 
+    height: 168px; 
+    padding: 96px 0px 24px 0px;
+    box-sizing: border-box;
+    border-top: 1px solid #ddd;
+    display: flex;
+    justify-content: space-between; 
+    align-items: center;
+    position: relative;
+    margin: 0 auto; 
+    background-color: #fff; 
+    font-family: "Bebas Neue", sans-serif;
+    font-size: 28px;
+    color: #333;
+}
+
+.copyright-text {
+    margin-left: 24px;
+    font-size: 28px;
+    font-weight: 400;
+    line-height: 1.5;
+}
+
+.contact-button {
+    position: absolute;
+    right: 24px; 
+    bottom: 24px;
+    text-decoration: none;
+    padding: 8px 16px;
+    font-family: "Roboto Mono", monospace;
+    font-size: 14px;
+    
+    color: #888; 
+    background-color: #fff; 
+   
+    border: 1px solid #000;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.contact-button:hover {
+    background-color: #555;
+    border-block-style: 10px;
+ }
+
+.contact-otp{
+    display: flex;
+    justify-content: center;
+    gap: 1.2vw;
+}
+.otp{
+    display: flex;
+    justify-content: center;
+    width: auto;
+    height: 3vh;
+    padding: 0.8vh 1.6vw 0.8vh 1.6vw;
+    gap: 0px;
+    border-radius: 0.8vw;
+    border: 0.15vw solid #00000029;
+    opacity: 0px;
+    align-items: center;
+}
+.submit{
+    display: flex;
+    justify-content: center;
+    width: 40vw;
+    height: 5vh;
+    border-radius: 0.7vw;
+    background-color: #CC0B0B;
+    border: none;
+    color: white;
+    font-weight: 500;
+    font-size: 1.5vw;
+}
+.skip{
+    color: #CC0B0B;
+    font-weight: 500;
+}
+
